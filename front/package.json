@@ -11,10 +11,10 @@
     "react-scroll": "^1.7.11"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "PORT=3006 react-scripts start",
+    "build": "PORT=3006 react-scripts build",
+    "test": "PORT=3006 react-scripts test",
+    "eject": "PORT=3006 react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
