@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Notfound from './components/layout/Notfound';
 import Landing from './components/layout/Landing';
-import Posts from './components/layout/Posts'; 
+import PostsDetail from './components/layout/PostsDetail'; 
 class App extends Component {
   render() {
     
@@ -13,7 +13,7 @@ class App extends Component {
         <Switch>
           
           <Route exact path="/" component={Landing}/>
-          <Route path="/posts/:id" component={Posts}/>
+          <Route path="/buy" component={PostsDetail}/>
           
           <Route exact path="*" component={Notfound} />
           </Switch>

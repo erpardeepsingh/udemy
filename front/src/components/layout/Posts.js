@@ -14,7 +14,7 @@ class Posts extends Component {
 
                      <img class="card-img-top h-50" src="images/course-image.jpg" alt="Card image cap"/>
                      <div class="card-body px-2">
-                       <a href="#"><h6>An Entire MBA in 1 Course:Award Winning...</h6></a>
+                       <a href="/buy"><h6>An Entire MBA in 1 Course:Award Winning...</h6></a>
                        <p class="card-text" id="a7">Chris Haroun, Complete Busines...</p>
                        <p class="card-text"><small class="text-muted">
                            <i class="fas fa-star text-warning"></i>
